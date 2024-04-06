@@ -90,6 +90,7 @@ python3 -m pip install onnx_graphsurgeon-0.5.0-py2.py3-none-any.whl
 - Refer the relationship
    - [https://onnxruntime.ai/docs/execution-providers/TensorRT-ExecutionProvider.html#requirements](https://onnxruntime.ai/docs/execution-providers/TensorRT-ExecutionProvider.html#requirements)
    - Correlation
+   - 
    | ONNX Runtime | TensorRT | CUDA |
    | --- | --- | --- |
    | 1.17-main | 8.6 | 11.8, 12.2 |
