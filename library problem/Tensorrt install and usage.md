@@ -4,9 +4,9 @@
    - NVIDIA TensorRT is an SDK for optimizing trained deep learning models to enable high-performance inference.
    - TensorRT contains a deep learning inference optimizer for trained deep learning models, and a runtime for execution.
    - Pipeline
-   - ![pipeline](https://github.com/lililuya/break-stones/assets/141640497/c2a90491-7c2e-41a4-b4f7-4e3254374185)
+     ![pipeline](https://github.com/lililuya/break-stones/assets/141640497/c2a90491-7c2e-41a4-b4f7-4e3254374185)
 - WorkFlow
-   - ![yuque_diagram](https://github.com/lililuya/break-stones/assets/141640497/bae077f2-0358-4d2e-ac95-2aaa9a421b7a)
+     ![yuque_diagram](https://github.com/lililuya/break-stones/assets/141640497/bae077f2-0358-4d2e-ac95-2aaa9a421b7a)
 
 
 
