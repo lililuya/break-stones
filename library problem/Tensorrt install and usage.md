@@ -1,3 +1,15 @@
+
+# TensorRT(Follow the official documents)
+- **What's the tesnsorRT**
+   - NVIDIA TensorRT is an SDK for optimizing trained deep learning models to enable high-performance inference.
+   - TensorRT contains a deep learning inference optimizer for trained deep learning models, and a runtime for execution.
+   - Pipeline
+     ![pipeline](https://github.com/lililuya/break-stones/assets/141640497/c2a90491-7c2e-41a4-b4f7-4e3254374185)
+- **WorkFlow**
+     ![yuque_diagram](https://github.com/lililuya/break-stones/assets/141640497/bae077f2-0358-4d2e-ac95-2aaa9a421b7a)
+- 
+
+
 ## 1.Installation
 - **My OS Enviroment**
 ```bash
@@ -20,9 +32,9 @@ pytorch version: 2.2.2
 ```
 ### 1.1.Type of Installation
 
-- Debian安装
-- RPM安装
-- Tar安装
+- Debian install
+- RPM install
+- Tar install
 ### 1.2 Choose "Tar" Installation
 
 - **Official reference website：**[https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-tar](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-tar)
@@ -42,7 +54,7 @@ cuda="cuda-x.x"
 tar -xzvf TensorRT-${version}.Linux.${arch}-gnu.${cuda}.tar.gz
 ```
 
-- **1.2.4 **
+- **1.2.4**
    - Add absolute path to TensorRt lib directory to environment variable LD_LIBRARY_PATH
    - Add the following line code to 
       - `/etc/profile`
@@ -71,7 +83,7 @@ cd TensorRT-${version}/onnx_graphsurgeon
 python3 -m pip install onnx_graphsurgeon-0.5.0-py2.py3-none-any.whl
 ```
 ## 2.Testing
-### 2.1Test MNIST
+### 2.1 Test MNIST
 
 - `cd TensorRT-${version}/samples/sampleOnnxMNIST`	
 - `make`
@@ -87,22 +99,24 @@ python3 -m pip install onnx_graphsurgeon-0.5.0-py2.py3-none-any.whl
 
 - Reason
    - **onnxruntime's version does not match the TensorRT's one**
-- refer the relationship
+- Refer the relationship
    - [https://onnxruntime.ai/docs/execution-providers/TensorRT-ExecutionProvider.html#requirements](https://onnxruntime.ai/docs/execution-providers/TensorRT-ExecutionProvider.html#requirements)
-| ONNX Runtime | TensorRT | CUDA |
-| --- | --- | --- |
-| 1.17-main | 8.6 | 11.8, 12.2 |
-| 1.16 | 8.6 | 11.8 |
-| 1.15 | 8.6 | 11.8 |
-| 1.14 | 8.5 | 11.6 |
-| 1.12-1.13 | 8.4 | 11.4 |
-| 1.11 | 8.2 | 11.4 |
-| 1.10 | 8.0 | 11.4 |
-| 1.9 | 8.0 | 11.4 |
-| 1.7-1.8 | 7.2 | 11.0.3 |
-| 1.5-1.6 | 7.1 | 10.2 |
-| 1.2-1.4 | 7.0 | 10.1 |
-| 1.0-1.1 | 6.0 | 10.0 |
+   - Correlation
+   - 
+   | ONNX Runtime | TensorRT | CUDA |
+   | --- | --- | --- |
+   | 1.17-main | 8.6 | 11.8, 12.2 |
+   | 1.16 | 8.6 | 11.8 |
+   | 1.15 | 8.6 | 11.8 |
+   | 1.14 | 8.5 | 11.6 |
+   | 1.12-1.13 | 8.4 | 11.4 |
+   | 1.11 | 8.2 | 11.4 |
+   | 1.10 | 8.0 | 11.4 |
+   | 1.9 | 8.0 | 11.4 |
+   | 1.7-1.8 | 7.2 | 11.0.3 |
+   | 1.5-1.6 | 7.1 | 10.2 |
+   | 1.2-1.4 | 7.0 | 10.1 |
+   | 1.0-1.1 | 6.0 | 10.0 |
 
 - **Solution**
    - [https://stackoverflow.com/questions/77951682/onnx-runtime-io-binding-bind-input-causing-no-data-transfer-from-devicetype1](https://stackoverflow.com/questions/77951682/onnx-runtime-io-binding-bind-input-causing-no-data-transfer-from-devicetype1)

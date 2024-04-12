@@ -1,2 +1,2 @@
 # break-stones
-record the puzzles 
+record the puzzles in researching deep learning
