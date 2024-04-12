@@ -10,14 +10,16 @@ import cv2
 from moviepy.editor import VideoFileClip
 from tqdm import tqdm
 
-
+"""
+Deploying gpfgan on tensorrt which can reach faster restoration speed. very fast! 
+"""
 def cut_frame_use_cv2(out_frame_dir, vid_path = "/mnt/sdb/cxh/liwen/EAT_code/demo/output/deepprompt_eam3d_all_final_313/1004_MTI_NEU_XX.flv_0001_hap_W015_neu_1_002.mp4"):
     print("start cut frames....")
     if not os.path.exists(out_frame_dir):
         os.makedirs(out_frame_dir, exist_ok=True)
     cap = cv2.VideoCapture(vid_path)
     frame_count = 0
-    while cap.isOpened(): # 检查cap是否被初始化
+    while cap.isOpened():
         ret, frame = cap.read()
         if not ret:
             break
