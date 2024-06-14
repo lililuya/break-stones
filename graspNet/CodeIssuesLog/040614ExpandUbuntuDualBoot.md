@@ -21,7 +21,7 @@ typora-root-url: ./
 
 我这里压缩50G，处于未分配状态就OK了
 
-![0614_02](img\0614_02.png)
+<img src="img\0614_02.png" alt="0614_02" style="zoom: 50%;" />
 
 #### 4.进入USB引导盘，分配卷
 
@@ -37,11 +37,11 @@ typora-root-url: ./
 
 最后一个就去掉前面的，然后分配给Linux分区，后续following分区也不分配就行
 
-![img](img\3c9577bea119c3df9393acb373d1520e.jpg)
+<img src="img\3c9577bea119c3df9393acb373d1520e.jpg" alt="3c9577bea119c3df9393acb373d1520e.jpg" style="zoom:33%;" />
 
 后面点绿色对勾，结束了就OK
 
-![img](img\d2e3dde6dad3cba0960d3a456d667255.jpg)
+<img src="img\d2e3dde6dad3cba0960d3a456d667255.jpg" alt="d2e3dde6dad3cba0960d3a456d667255.jpg" style="zoom:33%;" />
 
 #### 4.调整一下启动顺序，进入win和需要自己扩容的系统检查一下就OK
 
