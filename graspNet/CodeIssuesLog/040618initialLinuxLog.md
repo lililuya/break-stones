@@ -1,5 +1,6 @@
 ---
 typora-copy-images-to: img
+typora-root-url: ./
 ---
 
 #### 1. 安装驱动
@@ -33,7 +34,7 @@ Unable to load the kernel module 'nvidia.ko'. This happens most
 
 ##### 中断问题
 
-![img](E:\githubCode\break-stones\graspNet\CodeIssuesLog\img\7fd5fa4578c4de2dc3cfdc9e2ac46bf4.png)
+![img](img/7fd5fa4578c4de2dc3cfdc9e2ac46bf4.png)
 
 描述：下载总是中断，极其难绷
 
@@ -49,9 +50,9 @@ wget- c https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installe
 
 ##### run文件运行错误
 
-<img src="E:\githubCode\break-stones\graspNet\CodeIssuesLog\img\67ae4b6e96b558a3b673a34dfcfb4c9f.png" alt="img" style="zoom:67%;" />
+<img src="img/67ae4b6e96b558a3b673a34dfcfb4c9f.png" alt="img" style="zoom:67%;" />
 
-错误日志：<img src="E:\githubCode\break-stones\graspNet\CodeIssuesLog\img\08731718cf2b17a0aea792b750f2d547.png" alt="img" style="zoom:50%;" />
+错误日志：<img src="img/08731718cf2b17a0aea792b750f2d547.png" alt="img" style="zoom:50%;" />
 
 描述：安装失败
 
@@ -63,7 +64,7 @@ wget- c https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installe
 
 #### 3.程序运行错误
 
-![img](E:\githubCode\break-stones\graspNet\CodeIssuesLog\img\6898a89708ab48361e05b511ae5733fc.png)
+![img](img/6898a89708ab48361e05b511ae5733fc.png)
 
 问题：cuda中没有对应的函数
 
