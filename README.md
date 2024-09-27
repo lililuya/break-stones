@@ -16,3 +16,7 @@
 ## 4.Some command usage
 
 + Effective command tools in some terminal.
+
+
+## 5.Some useful book collected.
++ Some Machine Learning Book and Robotic books.
