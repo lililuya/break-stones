@@ -1,5 +1,5 @@
 
-# TensorRT(Follow the official documents)
+# TensorRT(refer the official documents)
 - **What's the tesnsorRT**
    - NVIDIA TensorRT is an SDK for optimizing trained deep learning models to enable high-performance inference.
    - TensorRT contains a deep learning inference optimizer for trained deep learning models, and a runtime for execution.
